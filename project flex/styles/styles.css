@@ -1,0 +1,107 @@
+
+body {
+    font: roboto;
+    margin: 0;
+    padding: 1rem; 
+    background-color: teal; 
+}
+
+header {
+    background-color: #333;
+    color: lightgreen;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: armenian;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+main {
+    padding: 20px;
+    font-size: 25px;
+}
+
+
+section {
+    margin-bottom: 24px;
+    padding: 20px;
+    background-color: navy;
+    color: black; 
+    font-size: 24px;
+    text-align: center;
+}
+
+.img-size {
+    max-width: 250px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.cta-button, .signup-button {
+    background-color: teal; 
+    color: white; 
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border-radius: 4px; 
+    margin-top: 12px;
+}
+
+.cta-button:hover, .signup-button:hover {
+    background-color: #005A70; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.service {
+    background-color: aquamarine; 
+    padding: 20px;
+    border: 2px solid black;
+
+}
+
+.flex-container {
+    display: flex;
+    padding: 2opx;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-container .one, .flex-container .two, .flex-container .three {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: navy;
+    border: 2px solid black;
+    color: black;  
+}
+.qoute {
+    background-color: lightgray; 
+    padding: 20px;
+    border-radius: 8px; 
+}
